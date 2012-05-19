@@ -1,0 +1,17 @@
+EbayGame:
+  actAs: [Sluggable, Timestampable]
+  columns:
+    title: string(255)
+    block_title: string
+    link: string(255)
+    description: text
+    current_price: int(11)
+    end_time: timestamp
+    bid_count: int(11)
+    game_hash: varchar(255)
+    postage_packing_fee: int(11)
+    profile_name: varchar(255)
+    profile_url: varchar(255)
+    feedback_score: int(11)
+    title_processed: tinyint(1)
+    platform: varchar(20)
