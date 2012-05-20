@@ -1,6 +1,24 @@
-EbayGame:
+TopGame:
+  tableName: top_games
   actAs: [Sluggable, Timestampable]
   columns:
+    title: string(255)
+    block_title: string(255)
+    meta_critic_score: varchar(20)
+    platform: varchar(20)
+    cex_buy_price: int(11)
+    cex_sell_price: int(11)
+    cex_ex_price: int(11)
+    status:
+      type: enum
+      values: [live, disabled]
+      default: disabled
+    
+EbayGame:
+  tableName: ebay_games
+  actAs: [Sluggable, Timestampable]
+  columns:
+    guid: string(255)
     title: string(255)
     block_title: string
     link: string(255)
@@ -8,10 +26,13 @@ EbayGame:
     current_price: int(11)
     end_time: timestamp
     bid_count: int(11)
-    game_hash: varchar(255)
     postage_packing_fee: int(11)
     profile_name: varchar(255)
     profile_url: varchar(255)
     feedback_score: int(11)
     title_processed: tinyint(1)
     platform: varchar(20)
+    status:
+      type: enum
+      values: [live, ended]
+      default: live

@@ -11,5 +11,37 @@
  * @version    SVN: $Id: Builder.php 7490 2010-03-29 19:53:27Z jwage $
  */
 class EbayGame extends BaseEbayGame
-{
+{  
+  private $min_current_price = "300";
+  private $min_bid_count = "3";
+  private $min_feeback_score = "20";
+  
+  private $score = ""; 
+  
+  /**
+   * based on the data thats set in this class, we can come up with a kind of score that
+   * will allow a save to the database  
+   */
+  public function calculateScore()
+  {
+    $this->score = 0;
+        
+    // if the current price is above a minimum price
+    if(isset($this->current_price) && ($this->current_price >= $this->min_current_price)) {
+      $price_divider = ($this->current_price / $this->min_current_price);
+      echo "\n price divider :: ".$price_divider;
+    }
+ 
+    // if the bid count is above a minimum bid count
+    if(isset($this->bid_count) && ($this->bid_count >= $this->min_bid_count)) {
+      $bid_count_divider = ($this->bid_count / $this->min_bid_count);
+      echo "\n bid divider :: ".$bid_count_divider;
+    }
+    
+    // if the feedback score is above a minimum feedback score
+    if(isset($this->feedback_score) &&  ($this->feedback_score >= $this->min_feeback_score)) {
+      $feedback_score_divider = ($this->feedbace_score / $this->min_feedback_score);
+      echo "\n feedback score divider :: ".$feedback_score_divider;
+    }    
+  }
 }
