@@ -18,11 +18,12 @@ abstract class BaseEbayGameForm extends BaseFormDoctrine
       'id'                  => new sfWidgetFormInputHidden(),
       'guid'                => new sfWidgetFormInputText(),
       'title'               => new sfWidgetFormInputText(),
+      'clean_title'         => new sfWidgetFormInputText(),
       'block_title'         => new sfWidgetFormTextarea(),
       'link'                => new sfWidgetFormInputText(),
       'description'         => new sfWidgetFormInputText(),
       'current_price'       => new sfWidgetFormInputText(),
-      'end_time'            => new sfWidgetFormDateTime(),
+      'end_time'            => new sfWidgetFormInputText(),
       'bid_count'           => new sfWidgetFormInputText(),
       'postage_packing_fee' => new sfWidgetFormInputText(),
       'profile_name'        => new sfWidgetFormInputText(),
@@ -40,11 +41,12 @@ abstract class BaseEbayGameForm extends BaseFormDoctrine
       'id'                  => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'guid'                => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'title'               => new sfValidatorString(array('max_length' => 255, 'required' => false)),
+      'clean_title'         => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'block_title'         => new sfValidatorString(array('required' => false)),
       'link'                => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'description'         => new sfValidatorPass(array('required' => false)),
       'current_price'       => new sfValidatorPass(array('required' => false)),
-      'end_time'            => new sfValidatorDateTime(array('required' => false)),
+      'end_time'            => new sfValidatorPass(array('required' => false)),
       'bid_count'           => new sfValidatorPass(array('required' => false)),
       'postage_packing_fee' => new sfValidatorPass(array('required' => false)),
       'profile_name'        => new sfValidatorPass(array('required' => false)),
@@ -59,7 +61,10 @@ abstract class BaseEbayGameForm extends BaseFormDoctrine
     ));
 
     $this->validatorSchema->setPostValidator(
-      new sfValidatorDoctrineUnique(array('model' => 'EbayGame', 'column' => array('slug')))
+      new sfValidatorAnd(array(
+        new sfValidatorDoctrineUnique(array('model' => 'EbayGame', 'column' => array('guid'))),
+        new sfValidatorDoctrineUnique(array('model' => 'EbayGame', 'column' => array('slug'))),
+      ))
     );
 
     $this->widgetSchema->setNameFormat('ebay_game[%s]');

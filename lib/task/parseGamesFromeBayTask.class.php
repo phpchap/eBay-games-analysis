@@ -23,6 +23,37 @@ read the JSON from yahoo pipes and then process the games into local database
 EOF;
   }
 
+  /**
+   * clean some of the common things people put in the title
+   * @param type $title  
+   */
+  function cleanTitle($title, $recursive=false, $countCalled) 
+  {    
+    // clean up the title using regexp
+    $title = preg_replace("/[^A-Za-z0-9\s\s+]/","", strtoupper($title));
+    $title = str_replace("  "," ", $title);
+    $title = trim($title);
+    
+    // fetch all the filters
+    $filters = GameTitleFilterTable::getGameTitleFilterBySpaces();            
+
+    // loop through all the filters and apply the filter
+    foreach($filters as $key => $search)
+    {
+      // have we got a match?
+      if(stripos($title, $search)!==false) {
+        
+        // apply the filter
+        $cleanNew = str_replace($search, "", $title);
+        
+        // use a bit of recursion to make multiple passes to the filter..
+        $title = $this->cleanTitle($cleanNew, true, $countCalled);
+      } 
+    }
+    // all good..
+    return $title;
+  }
+  
   protected function execute($arguments = array(), $options = array()) {
 
     // initialize the database connection
@@ -33,7 +64,7 @@ EOF;
     $urls['PS3'] = "http://pipes.yahoo.com/pipes/pipe.run?_id=4bbd1802903b3910282a81dc7e00adde&_render=json";
     $urls['XBOX360'] = "http://pipes.yahoo.com/pipes/pipe.run?_id=3f548e0603bbf2f9927d3bb6b1d741e5&_render=json";
 
-    /*
+/*
     // write JSON to disk
     foreach($urls as $platform => $url) {
       $jsonData = file_get_contents($url);
@@ -45,6 +76,7 @@ EOF;
     }
 die;
 */
+    $processed = 0;
     foreach ($urls as $platform => $url) {
 
       $jsonData = file_get_contents("/tmp/".$platform.".json");     
@@ -52,8 +84,6 @@ die;
 
       $items = $gamesData['value']['items'];
 
-      print_r($items);
-      die;
       foreach ($items as $item) {
         
         $title = $item["title"];
@@ -109,62 +139,71 @@ die;
           }
         }
         
-        echo "\n ####################";
-        echo "\n TITLE :: ".$title;
-        echo "\n LINK :: ".$link;
-        # echo "\n MESSAGE :: ".$message;
-        echo "\n END DATE : ".$endDate;
-        echo "\n CURRENT PRICE :: ".$currentPrice;
-        echo "\n NUMBER OF BIDS :: ".$bidCount;
-        
         // auction has ended.. save it to the database for future reference
         if ($timeLeft < 0) {
 
-          // grab the bits from the auction page..
-          $profileData = $this->getDetailsFromPage($link);
+          // make sure we havent processed this game already..
+          $processedAlready = EbayGameTable::getGameByGuid($guid);
+          
+          // not processed already.. may include crappy games..
+          if(count($processedAlready)==0) {
+          
+            // grab the bits from the auction page..
+            $profileData = $this->getDetailsFromPage($link);
 
-          $endPrice = $profileData['endPrice'];
-          $postagePacking = $profileData['postagePacking'];
-          $profileName = $profileData['profileName'];
-          $profileUrl = $profileData['profileUrl'];
-          $feedbackScore = $profileData['feedbackScore'];
+            $endPrice = $profileData['endPrice'];
+            $postagePacking = $profileData['postagePacking'];
+            $profileName = $profileData['profileName'];
+            $profileUrl = $profileData['profileUrl'];
+            $feedbackScore = $profileData['feedbackScore'];
 
-          // check the final price
-          $finalPrice = $currentPrice;
-          if ($endPrice > $currentPrice) {
-            $finalPrice = $endPrice;
-          } 
-                 
-          // save off the details
-          $ebayGame = new EbayGame();  
-          $ebayGame->title = $title;
-          $ebayGame->block_title = $blocktitle;
-          $ebayGame->link = $link;
-          $ebayGame->guid = $guid;
-          $ebayGame->description = $description;
-          $ebayGame->current_price = $finalPrice;
-          $ebayGame->end_time = $endTimeStamp; 
-          $ebayGame->bid_count = $bidCount;
-          $ebayGame->postage_packing_fee = $postagePacking;
-          $ebayGame->profile_name = $profileName;
-          $ebayGame->profile_url = $profileUrl;
-          $ebayGame->feedback_score = $feedbackScore;
-          $ebayGame->title_processed = 1;
-          $ebayGame->platform = $platform;
-          $ebayGame->status = "ended";
-          
-          // calculate the score..
-          $ebayGame->calculateScore();
-          
-          /*
-          echo "<pre>";
-          print_r($ebayGame->toArray());
-          echo "</pre>";
-          */
-          
+            // check the final price
+            $finalPrice = $currentPrice;
+            if ($endPrice > $currentPrice) {
+              $finalPrice = $endPrice;
+            } 
+/*
+            echo "\n ####################";
+            echo "\n TITLE :: ".$title;
+            echo "\n LINK :: ".$link;
+            # echo "\n MESSAGE :: ".$message;
+            echo "\n END DATE : ".$endDate;
+            echo "\n CURRENT PRICE :: ".$currentPrice;
+            echo "\n NUMBER OF BIDS :: ".$bidCount;
+            echo "\n PROFILE SCORE :: ".$feedbackScore;
+*/
+            // save off the details
+            $ebayGame = new EbayGame();  
+            $ebayGame->title = $title;
+            $ebayGame->block_title = $blocktitle;
+            $ebayGame->link = $link;
+            $ebayGame->guid = $guid;
+            $ebayGame->description = $description;
+            $ebayGame->current_price = $finalPrice;
+            $ebayGame->end_time = $endTimeStamp; 
+            $ebayGame->bid_count = $bidCount;
+            $ebayGame->postage_packing_fee = $postagePacking;
+            $ebayGame->profile_name = $profileName;
+            $ebayGame->profile_url = $profileUrl;
+            $ebayGame->feedback_score = $feedbackScore;
+            $ebayGame->title_processed = 1;
+            $ebayGame->platform = $platform;
+            $ebayGame->status = "ended";
+            // try to extract the game from the title..
+            $cleanTitle = $this->cleanTitle($title, false, $processed);
+            $ebayGame->clean_title = $cleanTitle;
+            $ebayGame->save();
+            
+            // get the title filters
+            
+            // calculate the score..
+            # echo "\n SCORE :: ".$ebayGame->calculateScore();
+            echo ".";
+            $processed++;
+          }
         } else {
           
-          echo "\n PERFORM LOOKUP OF TOP GAMES VS CURRENT GAME!";
+          # echo "\n PERFORM LOOKUP OF TOP GAMES VS CURRENT GAME!";
           
           
           

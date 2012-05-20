@@ -1,3 +1,9 @@
+GameTitleFilter:
+  tableName: game_title_filters
+  columns:
+    filter: string(255)
+    num_spaces: integer
+
 TopGame:
   tableName: top_games
   actAs: [Sluggable, Timestampable]
@@ -18,13 +24,14 @@ EbayGame:
   tableName: ebay_games
   actAs: [Sluggable, Timestampable]
   columns:
-    guid: string(255)
+    guid: { type: string(255), unique: true }      
     title: string(255)
+    clean_title: string(255)
     block_title: string
     link: string(255)
     description: text
     current_price: int(11)
-    end_time: timestamp
+    end_time: int(11)
     bid_count: int(11)
     postage_packing_fee: int(11)
     profile_name: varchar(255)

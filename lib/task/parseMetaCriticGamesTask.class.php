@@ -34,33 +34,33 @@ EOF;
     $connection = $databaseManager->getDatabase($options['connection'])->getConnection();
 
     // Using the optional flags parameter since PHP 5
-    $fileAr[] = "/tmp/ps3_games_list.txt";
-    $fileAr[] = "/tmp/xbox_games_list.txt";
+    $fileAr[] = "/var/www/eBay-games-analysis/data/meta-critic-games/xbox-360-games.txt";
+    $fileAr[] = "/var/www/eBay-games-analysis/data/meta-critic-games";
     
-    
+    // loop over over list of files
     foreach($fileAr as $file) {
       $xboxGamesFromMetaCritic = file($file);
       $sizeOfXboxGamesList = count($xboxGamesFromMetaCritic);
       $x = 0;
       $gamePosition = 1;
       $metaPosition = 2;
-      $limit = 6;
+      $limit = 4;
       $gamesProcessed = 0;
 
       foreach($xboxGamesFromMetaCritic as $counter => $row) {   
 
         // adds an extra row..
         if(stripos($row, "Kinect Compatible") !== false) {
-          $limit = 7;
+          $limit = 5;
         } else if(stripos($row, "Move Compatible") !== false) {
-          $limit = 7;
+          $limit = 5;
         }
 
         if($x == $limit) {
           $x = 0;
           // get the game..
           // get the metacritic score..
-  #         echo "\n GAME :: ".$game." -- ".$blockTitle." (".$metaCriticScore.") ";
+          // echo "\n GAME :: ".$game." -- ".$blockTitle." (".$metaCriticScore.") ";
 
           $topGame = new TopGame();
           $topGame->title = $game;
@@ -78,11 +78,14 @@ EOF;
           $topGame->save();
   #print_r($topGame->toArray());
 
-          $limit = 6;
+          $limit = 4;
           $game = "";
           $blockTitle = "";
           $metaCriticScore = "";
           $gamesProcessed++;
+          
+#          if($gamesProcessed == 5) { die; }
+          
         } else {
           if($x == $gamePosition) {
             $game = trim($row);

@@ -1,0 +1,1005 @@
+   1.
+      Grand Theft Auto IV
+      Metascore: 98
+          * User: 7.9
+          * Release Date: Apr 29
+   2.
+      BioShock
+      Metascore: 96
+          * User: 8.7
+          * Release Date: Aug 21
+   3.
+      The Orange Box
+      Metascore: 96
+          * User: 8.9
+          * Release Date: Oct 10
+   4.
+      Mass Effect 2
+      Metascore: 96
+          * User: 8.8
+          * Release Date: Jan 26
+   5.
+      The Elder Scrolls V: Skyrim
+      Metascore: 96
+          * User: 8.3
+          * Kinect Compatible
+          * Release Date: Nov 11
+   6.
+      Red Dead Redemption
+      Metascore: 95
+          * User: 8.8
+          * Release Date: May 18
+   7.
+      Portal 2
+      Metascore: 95
+          * User: 8.1
+          * Release Date: Apr 19
+   8.
+      Batman: Arkham City
+      Metascore: 94
+          * User: 8.3
+          * Release Date: Oct 18
+   9.
+      Gears of War
+      Metascore: 94
+          * User: 8.4
+          * Release Date: Nov 7
+  10.
+      The Elder Scrolls IV: Oblivion
+      Metascore: 94
+          * User: 8.7
+          * Release Date: Mar 20
+  11.
+      Call of Duty 4: Modern Warfare
+      Metascore: 94
+          * User: 8.4
+          * Release Date: Nov 5
+  12.
+      Halo 3
+      Metascore: 94
+          * User: 7.6
+          * Release Date: Sep 25
+  13.
+      Call of Duty: Modern Warfare 2
+      Metascore: 94
+          * User: 6.0
+          * Release Date: Nov 10
+  14.
+      Pac-Man Championship Edition DX
+      Metascore: 93
+          * User: 8.1
+          * Release Date: Nov 17
+  15.
+      Braid
+      Metascore: 93
+          * User: 8.6
+          * Release Date: Aug 6
+  16.
+      Street Fighter IV
+      Metascore: 93
+          * User: 7.3
+          * Release Date: Feb 17
+  17.
+      Fallout 3
+      Metascore: 93
+          * User: 8.4
+          * Release Date: Oct 28
+  18.
+      Gears of War 2
+      Metascore: 93
+          * User: 7.6
+          * Release Date: Nov 7
+  19.
+      Mass Effect 3
+      Metascore: 93
+          * User: 5.0
+          * Kinect Compatible
+          * Release Date: Mar 6
+  20.
+      Rock Band 3
+      Metascore: 93
+          * User: 8.1
+          * Release Date: Oct 26
+  21.
+      Guitar Hero II
+      Metascore: 92
+          * User: 8.0
+          * Release Date: Apr 3
+  22.
+      Rock Band
+      Metascore: 92
+          * User: 8.2
+          * Release Date: Nov 20
+  23.
+      Forza Motorsport 3
+      Metascore: 92
+          * User: 7.9
+          * Release Date: Oct 27
+  24.
+      Batman: Arkham Asylum
+      Metascore: 92
+          * User: 8.6
+          * Release Date: Aug 25
+  25.
+      Rock Band 2
+      Metascore: 92
+          * User: 8.3
+          * Release Date: Sep 14
+  26.
+      Super Street Fighter IV
+      Metascore: 91
+          * User: 7.5
+          * Release Date: Apr 27
+  27.
+      Halo: Reach
+      Metascore: 91
+          * User: 7.6
+          * Release Date: Sep 14
+  28.
+      Mass Effect
+      Metascore: 91
+          * User: 8.7
+          * Release Date: Nov 20
+  29.
+      Forza Motorsport 4
+      Metascore: 91
+          * User: 7.9
+          * Kinect Compatible
+          * Release Date: Oct 11
+  30.
+      Gears of War 3
+      Metascore: 91
+          * User: 7.5
+          * Release Date: Sep 20
+  31.
+      Trials Evolution
+      Metascore: 91
+          * User: 7.9
+          * Release Date: Apr 18
+  32.
+      Assassin's Creed II
+      Metascore: 90
+          * User: 8.7
+          * Release Date: Nov 17
+  33.
+      Bayonetta
+      Metascore: 90
+          * User: 7.6
+          * Release Date: Jan 5
+  34.
+      Tom Clancy's Ghost Recon Advanced Warfighter
+      Metascore: 90
+          * User: 8.1
+          * Release Date: Mar 9
+  35.
+      Grand Theft Auto IV: The Lost and Damned
+      Metascore: 90
+          * User: 8.0
+          * Release Date: Feb 17
+  36.
+      FIFA Soccer 12
+      Metascore: 90
+          * User: 6.6
+          * Release Date: Sep 27
+  37.
+      FIFA Soccer 10
+      Metascore: 90
+          * User: 7.7
+          * Release Date: Oct 20
+  38.
+      Portal: Still Alive
+      Metascore: 90
+          * User: 8.0
+          * Release Date: Oct 22
+  39.
+      LIMBO
+      Metascore: 90
+          * User: 8.5
+          * Release Date: Jul 21
+  40.
+      Super Meat Boy
+      Metascore: 90
+          * User: 8.0
+          * Release Date: Oct 20
+  41.
+      Dead Space 2
+      Metascore: 90
+          * User: 8.5
+          * Release Date: Jan 25
+  42.
+      Geometry Wars: Retro Evolved 2
+      Metascore: 90
+          * User: 8.2
+          * Release Date: Jul 30
+  43.
+      Forza Motorsport 2
+      Metascore: 90
+          * User: 8.5
+          * Release Date: May 29
+  44.
+      Metal Gear Solid HD Collection
+      Metascore: 90
+          * User: 8.2
+          * Release Date: Nov 8
+  45.
+      NBA 2K12
+      Metascore: 90
+          * User: 7.8
+          * Release Date: Oct 4
+  46.
+      Call of Duty 2
+      Metascore: 89
+          * User: 8.2
+          * Release Date: Nov 17
+  47.
+      Plants vs. Zombies
+      Metascore: 89
+          * User: 8.1
+          * Release Date: Sep 8
+  48.
+      Rez HD
+      Metascore: 89
+          * User: 7.7
+          * Release Date: Jan 30
+  49.
+      Castlevania: Symphony of the Night
+      Metascore: 89
+          * User: 8.5
+          * Release Date: Mar 21
+  50.
+      Fable II
+      Metascore: 89
+          * User: 6.3
+          * Release Date: Oct 21
+  51.
+      Assassin's Creed: Brotherhood
+      Metascore: 89
+          * User: 8.3
+          * Release Date: Nov 16
+  52.
+      Left 4 Dead 2
+      Metascore: 89
+          * User: 8.8
+          * Release Date: Nov 17
+  53.
+      Left 4 Dead
+      Metascore: 89
+          * User: 7.9
+          * Release Date: Nov 17
+  54.
+      Dark Souls
+      Metascore: 89
+          * User: 8.1
+          * Release Date: Oct 4
+  55.
+      Grand Theft Auto IV: The Ballad of Gay Tony
+      Metascore: 89
+          * User: 8.6
+          * Release Date: Oct 29
+  56.
+      Fez
+      Metascore: 89
+          * User: 6.2
+          * Release Date: Apr 13
+  57.
+      Burnout Revenge
+      Metascore: 89
+          * User: 7.8
+          * Release Date: Mar 7
+  58.
+      Dead Space
+      Metascore: 89
+          * User: 8.8
+          * Release Date: Oct 13
+  59.
+      Peggle Nights
+      Metascore: 89
+          * User: 7.6
+          * Release Date: Nov 18
+  60.
+      Pinball FX 2: Sorcerer's Lair
+      Metascore: 89
+          * User: 9.0
+          * Release Date: Oct 12
+  61.
+      Deus Ex: Human Revolution
+      Metascore: 89
+          * User: 8.2
+          * Release Date: Aug 23
+  62.
+      The Beatles: Rock Band
+      Metascore: 89
+          * User: 8.7
+          * Release Date: Sep 9
+  63.
+      L.A. Noire
+      Metascore: 89
+          * User: 7.6
+          * Release Date: May 17
+  64.
+      Peggle Deluxe
+      Metascore: 89
+          * User: 8.4
+          * Release Date: Mar 11
+  65.
+      Virtua Fighter 5 Online
+      Metascore: 89
+          * User: 7.8
+          * Release Date: Oct 30
+  66.
+      NBA 2K11
+      Metascore: 89
+          * User: 8.0
+          * Release Date: Oct 5
+  67.
+      Burnout Paradise
+      Metascore: 88
+          * User: 6.7
+          * Release Date: Jan 22
+  68.
+      Shadow Complex
+      Metascore: 88
+          * User: 8.7
+          * Release Date: Aug 19
+  69.
+      Call of Duty: Modern Warfare 3
+      Metascore: 88
+          * User: 3.2
+          * Release Date: Nov 8
+  70.
+      The Witcher 2: Assassins of Kings
+      Metascore: 88
+          * User: 8.6
+          * Release Date: Apr 17
+  71.
+      NHL 10
+      Metascore: 88
+          * User: 8.5
+          * Release Date: Sep 15
+  72.
+      BioShock 2
+      Metascore: 88
+          * User: 8.2
+          * Release Date: Feb 9
+  73.
+      NHL 09
+      Metascore: 88
+          * User: 8.8
+          * Release Date: Sep 9
+  74.
+      Tom Clancy's Rainbow Six Vegas
+      Metascore: 88
+          * User: 8.5
+          * Release Date: Nov 20
+  75.
+      Super Street Fighter II Turbo HD Remix
+      Metascore: 88
+          * User: 8.6
+          * Release Date: Nov 26
+  76.
+      The Secret of Monkey Island: Special Edition
+      Metascore: 88
+          * User: 9.0
+          * Release Date: Jul 15
+  77.
+      Project Gotham Racing 3
+      Metascore: 88
+          * User: 8.0
+          * Release Date: Nov 16
+  78.
+      Battlefield: Bad Company 2
+      Metascore: 88
+          * User: 8.7
+          * Release Date: Mar 2
+  79.
+      Mortal Kombat Komplete Edition
+      Metascore: 88
+          * User: 7.8
+          * Release Date: Feb 28
+  80.
+      Pinball FX 2
+      Metascore: 88
+          * User: 8.1
+          * Release Date: Oct 27
+  81.
+      NHL 11
+      Metascore: 88
+          * User: 7.9
+          * Release Date: Sep 7
+  82.
+      FIFA Soccer 11
+      Metascore: 88
+          * User: 7.3
+          * Release Date: Sep 28
+  83.
+      Joe Danger: Special Edition
+      Metascore: 88
+          * User: 7.4
+          * Release Date: Dec 14
+  84.
+      Battlefield: Bad Company 2 Vietnam
+      Metascore: 88
+          * User: 7.8
+          * Release Date: Dec 21
+  85.
+      Need for Speed: Hot Pursuit
+      Metascore: 88
+          * User: 7.1
+          * Release Date: Nov 16
+  86.
+      FIFA Soccer 09
+      Metascore: 87
+          * User: 8.0
+          * Release Date: Oct 13
+  87.
+      Ikaruga
+      Metascore: 87
+          * User: 7.9
+          * Release Date: Apr 9
+  88.
+      Mass Effect 2: Lair of the Shadow Broker
+      Metascore: 87
+          * User: 8.6
+          * Release Date: Sep 7
+  89.
+      DiRT 3
+      Metascore: 87
+          * User: 7.3
+          * Release Date: May 24
+  90.
+      Red Dead Redemption: Undead Nightmare Pack
+      Metascore: 87
+          * User: 8.1
+          * Release Date: Oct 26
+  91.
+      Max Payne 3
+      Metascore: 87
+          * User: 7.8
+          * Release Date: May 15
+  92.
+      Call of Duty: Black Ops
+      Metascore: 87
+          * User: 5.9
+          * Release Date: Nov 9
+  93.
+      Fight Night Round 4
+      Metascore: 87
+          * User: 8.0
+          * Release Date: Jun 23
+  94.
+      DiRT 2
+      Metascore: 87
+          * User: 8.4
+          * Release Date: Sep 8
+  95.
+      Rayman Origins
+      Metascore: 87
+          * User: 8.5
+          * Release Date: Nov 15
+  96.
+      Puzzle Quest: Challenge of the Warlords
+      Metascore: 87
+          * User: 8.2
+          * Release Date: Oct 10
+  97.
+      GRID
+      Metascore: 87
+          * User: 7.8
+          * Release Date: Jun 3
+  98.
+      The Elder Scrolls IV: Shivering Isles
+      Metascore: 86
+          * User: 8.7
+          * Release Date: Mar 26
+  99.
+      BlazBlue: Calamity Trigger
+      Metascore: 86
+          * User: 8.7
+          * Release Date: Jul 30
+ 100.
+      Dragon Age: Origins
+      Metascore: 86
+          * User: 7.7
+          * Release Date: Nov 3
+ 101.
+      Pinball FX 2: Marvel Pinball
+      Metascore: 86
+          * User: 8.4
+          * Release Date: Dec 8
+ 102.
+      Trials HD
+      Metascore: 86
+          * User: 8.9
+          * Release Date: Aug 12
+ 103.
+      Radiant Silvergun
+      Metascore: 86
+          * User: 8.2
+          * Release Date: Sep 14
+ 104.
+      Call of Duty: Modern Warfare 3 - Collection 1
+      Metascore: 86
+          * User: 4.3
+          * Release Date: Mar 20
+ 105.
+      Mortal Kombat
+      Metascore: 86
+          * User: 8.4
+          * Release Date: Apr 19
+ 106.
+      NCAA Football 11
+      Metascore: 86
+          * User: 7.3
+          * Release Date: Jul 13
+ 107.
+      Street Fighter III: Third Strike Online Edition
+      Metascore: 86
+          * User: 6.5
+          * Release Date: Aug 24
+ 108.
+      Dance Central 2
+      Metascore: 86
+          * User: 8.5
+          * Kinect Compatible
+          * Release Date: Oct 25
+ 109.
+      Geometry Wars: Retro Evolved
+      Metascore: 86
+          * User: 8.6
+          * Release Date: Nov 22
+ 110.
+      Fight Night Round 3
+      Metascore: 86
+          * User: 9.0
+          * Release Date: Feb 20
+ 111.
+      Bastion
+      Metascore: 86
+          * User: 8.6
+          * Release Date: Jul 20
+ 112.
+      Fight Night Champion
+      Metascore: 86
+          * User: 7.1
+          * Release Date: Mar 1
+ 113.
+      Tom Clancy's Ghost Recon Advanced Warfighter 2
+      Metascore: 86
+          * User: 8.0
+          * Release Date: Mar 6
+ 114.
+      Skate
+      Metascore: 86
+          * User: 8.5
+          * Release Date: Sep 14
+ 115.
+      NHL 12
+      Metascore: 86
+          * User: 7.1
+          * Release Date: Sep 13
+ 116.
+      The Elder Scrolls IV: Knights of the Nine
+      Metascore: 86
+          * User: 8.1
+          * Release Date: Nov 21
+ 117.
+      DJ Hero 2
+      Metascore: 86
+          * User: 8.1
+          * Release Date: Oct 19
+ 118.
+      Tom Clancy's Splinter Cell: Conviction
+      Metascore: 85
+          * User: 7.7
+          * Release Date: Apr 13
+ 119.
+      Project Gotham Racing 4
+      Metascore: 85
+          * User: 8.7
+          * Release Date: Oct 2
+ 120.
+      NHL 08
+      Metascore: 85
+          * User: 8.4
+          * Release Date: Sep 12
+ 121.
+      Guitar Hero III: Legends of Rock
+      Metascore: 85
+          * User: 7.6
+          * Release Date: Oct 28
+ 122.
+      Tom Clancy's Splinter Cell: Conviction - Deniable Ops Insurgency Pack
+      Metascore: 85
+          * User: 7.0
+          * Release Date: Jun 1
+ 123.
+      Lara Croft and the Guardian of Light
+      Metascore: 85
+          * User: 8.5
+          * Release Date: Aug 18
+ 124.
+      Tom Clancy's Splinter Cell Double Agent
+      Metascore: 85
+          * User: 8.2
+          * Release Date: Oct 17
+ 125.
+      Madden NFL 10
+      Metascore: 85
+          * User: 6.1
+          * Release Date: Aug 14
+ 126.
+      BlazBlue: Continuum Shift
+      Metascore: 85
+          * User: 8.8
+          * Release Date: Jul 27
+ 127.
+      Guitar Hero World Tour
+      Metascore: 85
+          * User: 6.1
+          * Release Date: Oct 26
+ 128.
+      Dead or Alive 4
+      Metascore: 85
+          * User: 8.3
+          * Release Date: Dec 29
+ 129.
+      Pure
+      Metascore: 85
+          * User: 7.9
+          * Release Date: Sep 23
+ 130.
+      SoulCalibur IV
+      Metascore: 85
+          * User: 8.1
+          * Release Date: Jul 29
+ 131.
+      Monkey Island 2 Special Edition: LeChuck's Revenge
+      Metascore: 85
+          * User: 9.0
+          * Release Date: Jul 7
+ 132.
+      Marvel vs. Capcom 3: Fate of Two Worlds
+      Metascore: 85
+          * User: 6.9
+          * Release Date: Feb 15
+ 133.
+      Guitar Hero 5
+      Metascore: 85
+          * User: 6.8
+          * Release Date: Sep 1
+ 134.
+      NBA Jam: On Fire Edition
+      Metascore: 85
+          * User: 7.5
+          * Release Date: Oct 5
+ 135.
+      Dead Rising
+      Metascore: 85
+          * User: 7.8
+          * Release Date: Aug 8
+ 136.
+      Madden NFL 08
+      Metascore: 85
+          * User: 6.3
+          * Release Date: Aug 14
+ 137.
+      Borderlands: The Secret Armory of General Knoxx
+      Metascore: 85
+          * User: 8.6
+          * Release Date: Feb 23
+ 138.
+      UFC Undisputed 3
+      Metascore: 85
+          * User: 7.3
+          * Release Date: Feb 14
+ 139.
+      Gears of War 3: Forces of Nature Map Pack
+      Metascore: 85
+          * User: 7.0
+          * Release Date: Mar 27
+ 140.
+      Red Faction: Guerrilla
+      Metascore: 85
+          * User: 8.2
+          * Release Date: Jun 2
+ 141.
+      F.E.A.R.
+      Metascore: 85
+          * User: 7.0
+          * Release Date: Oct 31
+ 142.
+      Trine 2
+      Metascore: 85
+          * User: 7.9
+          * Release Date: Dec 21
+ 143.
+      Bionic Commando Rearmed
+      Metascore: 85
+          * User: 8.4
+          * Release Date: Aug 13
+ 144.
+      Far Cry 2
+      Metascore: 85
+          * User: 7.3
+          * Release Date: Oct 21
+ 145.
+      Call of Duty: World at War
+      Metascore: 84
+          * User: 7.2
+          * Release Date: Nov 10
+ 146.
+      Bomberman Live
+      Metascore: 84
+          * User: 8.4
+          * Release Date: Jul 18
+ 147.
+      Crysis 2
+      Metascore: 84
+          * User: 7.6
+          * Release Date: Mar 22
+ 148.
+      Viva Pinata
+      Metascore: 84
+          * User: 8.2
+          * Release Date: Nov 9
+ 149.
+      'Splosion Man
+      Metascore: 84
+          * User: 8.4
+          * Release Date: Jul 22
+ 150.
+      Beyond Good & Evil HD
+      Metascore: 84
+          * User: 8.2
+          * Release Date: Mar 2
+ 151.
+      Top Spin 4
+      Metascore: 84
+          * User: 8.1
+          * Release Date: Mar 15
+ 152.
+      Battlefield 3
+      Metascore: 84
+          * User: 7.4
+          * Release Date: Oct 25
+ 153.
+      UFC Undisputed 2010
+      Metascore: 84
+          * User: 6.5
+          * Release Date: May 25
+ 154.
+      Outland
+      Metascore: 84
+          * User: 7.5
+          * Release Date: Apr 27
+ 155.
+      NBA 2K7
+      Metascore: 84
+          * User: 7.7
+          * Release Date: Sep 25
+ 156.
+      Devil May Cry 4
+      Metascore: 84
+          * User: 7.8
+          * Release Date: Feb 5
+ 157.
+      Guitar Hero: Metallica
+      Metascore: 84
+          * User: 7.9
+          * Release Date: Mar 29
+ 158.
+      Sid Meier's Civilization Revolution
+      Metascore: 84
+          * User: 7.9
+          * Release Date: Jul 8
+ 159.
+      Stacking
+      Metascore: 84
+          * User: 8.0
+          * Release Date: Feb 9
+ 160.
+      F1 2011
+      Metascore: 84
+          * User: 7.3
+          * Release Date: Sep 20
+ 161.
+      NBA 2K9
+      Metascore: 84
+          * User: 7.6
+          * Release Date: Oct 7
+ 162.
+      Worms 2: Armageddon
+      Metascore: 84
+          * User: 6.8
+          * Release Date: Jul 1
+ 163.
+      DJ Hero
+      Metascore: 84
+          * User: 8.7
+          * Release Date: Oct 27
+ 164.
+      Bulletstorm
+      Metascore: 84
+          * User: 7.5
+          * Release Date: Feb 22
+ 165.
+      Fallout: New Vegas
+      Metascore: 84
+          * User: 7.9
+          * Release Date: Oct 19
+ 166.
+      Pinball FX 2: Marvel Pinball - Vengeance and Virtue
+      Metascore: 84
+          * User: tbd
+          * Release Date: Dec 13
+ 167.
+      Saints Row: The Third
+      Metascore: 84
+          * User: 7.6
+          * Release Date: Nov 15
+ 168.
+      Skate 2
+      Metascore: 84
+          * User: 7.9
+          * Release Date: Jan 21
+ 169.
+      Borderlands
+      Metascore: 84
+          * User: 8.4
+          * Release Date: Oct 20
+ 170.
+      Madden NFL 11
+      Metascore: 84
+          * User: 5.7
+          * Release Date: Aug 10
+ 171.
+      Might & Magic: Clash of Heroes
+      Metascore: 84
+          * User: 8.0
+          * Release Date: Apr 13
+ 172.
+      Child of Eden
+      Metascore: 84
+          * User: 7.6
+          * Kinect Compatible
+          * Release Date: Jun 14
+ 173.
+      Resident Evil 4 HD
+      Metascore: 84
+          * User: 7.2
+          * Release Date: Sep 20
+ 174.
+      Vanquish
+      Metascore: 84
+          * User: 8.2
+          * Release Date: Oct 19
+ 175.
+      Tiger Woods PGA Tour 09
+      Metascore: 84
+          * User: 8.4
+          * Release Date: Aug 26
+ 176.
+      F1 2010
+      Metascore: 84
+          * User: 7.6
+          * Release Date: Sep 22
+ 177.
+      Pinball FX 2: Epic Quest
+      Metascore: 84
+          * User: 6.1
+          * Release Date: Feb 15
+ 178.
+      Battlefield 1943
+      Metascore: 83
+          * User: 8.0
+          * Release Date: Jul 8
+ 179.
+      Battlefield 3: Back to Karkand
+      Metascore: 83
+          * User: 7.3
+          * Release Date: Dec 13
+ 180.
+      N+
+      Metascore: 83
+          * User: 8.9
+          * Release Date: Feb 20
+ 181.
+      Fallout 3: Point Lookout
+      Metascore: 83
+          * User: 8.6
+          * Release Date: Jun 23
+ 182.
+      Halo 3: ODST
+      Metascore: 83
+          * User: 7.1
+          * Release Date: Sep 22
+ 183.
+      DiRT
+      Metascore: 83
+          * User: 7.4
+          * Release Date: Jun 19
+ 184.
+      Sine Mora
+      Metascore: 83
+          * User: 7.4
+          * Release Date: Mar 21
+ 185.
+      Resident Evil 5
+      Metascore: 83
+          * User: 7.5
+          * Release Date: Mar 13
+ 186.
+      Street Fighter X Tekken
+      Metascore: 83
+          * User: 3.9
+          * Release Date: Mar 6
+ 187.
+      Need for Speed: Shift
+      Metascore: 83
+          * User: 6.7
+          * Release Date: Sep 15
+ 188.
+      Need for Speed Most Wanted
+      Metascore: 83
+          * User: 8.0
+          * Release Date: Nov 16
+ 189.
+      Pinball Hall of Fame: The Williams Collection
+      Metascore: 83
+          * User: 8.8
+          * Release Date: Sep 22
+ 190.
+      NCAA Football 10
+      Metascore: 83
+          * User: 6.7
+          * Release Date: Jul 14
+ 191.
+      Guardian Heroes
+      Metascore: 83
+          * User: 9.1
+          * Release Date: Oct 12
+ 192.
+      Crackdown
+      Metascore: 83
+          * User: 8.4
+          * Release Date: Feb 20
+ 193.
+      UFC Undisputed 2009
+      Metascore: 83
+          * User: 7.9
+          * Release Date: May 19
+ 194.
+      Madden NFL 09
+      Metascore: 83
+          * User: 7.1
+          * Release Date: Aug 12
+ 195.
+      Fallout: New Vegas - Old World Blues
+      Metascore: 83
+          * User: 8.3
+          * Release Date: Jul 19
+ 196.
+      The Misadventures of P.B. Winterbottom
+      Metascore: 83
+          * User: 7.5
+          * Release Date: Feb 17
+ 197.
+      Castlevania: Lords of Shadow
+      Metascore: 83
+          * User: 7.9
+          * Release Date: Oct 5
+ 198.
+      Darksiders
+      Metascore: 83
+          * User: 7.6
+          * Release Date: Jan 5
+ 199.
+      Pac-Man Championship Edition
+      Metascore: 83
+          * User: 8.4
+          * Release Date: Jun 6
+ 200.
+      2010 FIFA World Cup South Africa
+      Metascore: 83
+          * User: 8.2
+          * Release Date: Apr 27

@@ -1,0 +1,410 @@
+
+GameTitleFilter:
+  filter1:
+    filter: 'EX CON'
+    num_spaces: 1
+  filter2:
+    filter: 'FOR PS3'
+    num_spaces: 1
+  filter3:
+    filter: 'PS3 UK PAL'
+    num_spaces: 2
+  filter4:
+    filter: 'EASY PLATINUM'
+    num_spaces: 1
+  filter5:
+    filter: 'ACTIVISION FOR MICROSOFT XBOX 360'
+    num_spaces: 4
+  filter6:
+    filter: 'USED XBOX 360'
+    num_spaces: 2
+  filter7:
+    filter: 'FOR PS3 EXCELLENT CONDITION USED'
+    num_spaces: 4
+  filter8:
+    filter: 'COD MW3'
+    num_spaces: 1
+  filter9:
+    filter: 'NO MANUAL DISC'
+    num_spaces: 2
+  filter10:
+    filter: 'FAST DELIVERY'
+    num_spaces: 1
+  filter11:
+    filter: 'XBOX 360SLIM'
+    num_spaces: 1
+  filter12:
+    filter: 'FOR PS3 GAME'
+    num_spaces: 2
+  filter13:
+    filter: 'FOR THE XBOX 360'
+    num_spaces: 3
+  filter14:
+    filter: 'GAME PS 3'
+    num_spaces: 2
+  filter15:
+    filter: 'GAME XBOX 360'
+    num_spaces: 2
+  filter16:
+    filter: 'PLAYSTION 3'
+    num_spaces: 1
+  filter17:
+    filter: 'CHEAP BARGAIN'
+    num_spaces: 1
+  filter18:
+    filter: 'PS 3 GAME'
+    num_spaces: 2
+  filter19:
+    filter: 'FOR PS'
+    num_spaces: 1
+  filter20:
+    filter: 'ON IN'
+    num_spaces: 1
+  filter21:
+    filter: 'PROMOTIONAL COPY RARE'
+    num_spaces: 2
+  filter22:
+    filter: 'PROMO COPY RARE'
+    num_spaces: 2
+  filter23:
+    filter: 'PROMO COPY'
+    num_spaces: 1
+  filter24:
+    filter: 'USED UK'
+    num_spaces: 1
+  filter25:
+    filter: 'NO RESERVE'
+    num_spaces: 1
+  filter26:
+    filter: 'FOR USED'
+    num_spaces: 1
+  filter27:
+    filter: 'BUNDLE COPY RARE COLLECTABLE'
+    num_spaces: 3
+  filter28:
+    filter: 'BOXED'
+    num_spaces: 0
+  filter29:
+    filter: 'ONE DAY ONLY'
+    num_spaces: 2
+  filter30:
+    filter: 'KINECT GAME'
+    num_spaces: 1
+  filter31:
+    filter: 'DUPLICATE PRESENT1ST CLASS PP 99P'
+    num_spaces: 4
+  filter32:
+    filter: 'GAME STILL HAS POLYTHENE WRAPPER ON'
+    num_spaces: 5
+  filter33:
+    filter: 'RPG GAME'
+    num_spaces: 1
+  filter34:
+    filter: 'BN'
+    num_spaces: 0
+  filter35:
+    filter: 'PLAYSTATION 3 GAME'
+    num_spaces: 2
+  filter36:
+    filter: 'THE GAME IN'
+    num_spaces: 2
+  filter37:
+    filter: 'SEALED'
+    num_spaces: 0
+  filter38:
+    filter: 'PROMO RARE'
+    num_spaces: 1
+  filter39:
+    filter: 'IN GOOD CONDITION'
+    num_spaces: 2
+  filter40:
+    filter: 'FREE BARGAIN'
+    num_spaces: 1
+  filter41:
+    filter: 'VERY GOOD CONDITION'
+    num_spaces: 2
+  filter42:
+    filter: 'STANDARD EDITION'
+    num_spaces: 1
+  filter43:
+    filter: 'EXCOND'
+    num_spaces: 0
+  filter44:
+    filter: 'GAME FOR MICROSOFT'
+    num_spaces: 2
+  filter45:
+    filter: '2 DISCS'
+    num_spaces: 1
+  filter46:
+    filter: 'FAST POSTAGE'
+    num_spaces: 1
+  filter47:
+    filter: 'UNOPENED'
+    num_spaces: 0
+  filter48:
+    filter: 'PS3 GAME'
+    num_spaces: 1
+  filter49:
+    filter: 'X BOX 360'
+    num_spaces: 2
+  filter50:
+    filter: 'BRAND NEW'
+    num_spaces: 1
+  filter51:
+    filter: 'GENUINE ITEM'
+    num_spaces: 1
+  filter52:
+    filter: 'SEALED DC COMICS'
+    num_spaces: 2
+  filter53:
+    filter: 'COMPLETEFASTPOST UK'
+    num_spaces: 1
+  filter54:
+    filter: 'SPECIAL 2 DISC EDITION'
+    num_spaces: 3
+  filter55:
+    filter: 'SPECIAL EDITION BRAND'
+    num_spaces: 2
+  filter56:
+    filter: 'FOR PLAYSTATION 3'
+    num_spaces: 2
+  filter57:
+    filter: 'DISC ONLY NO BOX'
+    num_spaces: 3
+  filter58:
+    filter: 'FOR MICROSOFT XBOX 360'
+    num_spaces: 3
+  filter59:
+    filter: 'FOR PLAY STATION 3 BRAND NEW SEALED'
+    num_spaces: 6
+  filter60:
+    filter: 'VIDEO GAME NEW SEALED PAL'
+    num_spaces: 4
+  filter61:
+    filter: 'FOR SONY PLAYSTATION 3'
+    num_spaces: 3
+  filter62:
+    filter: 'FACTORY SEALED BRAND NEW'
+    num_spaces: 3
+  filter63:
+    filter: 'NEW AND SEALED'
+    num_spaces: 2
+  filter64:
+    filter: 'FOR PS3'
+    num_spaces: 1
+  filter65:
+    filter: 'DISC ONLY'
+    num_spaces: 1
+  filter66:
+    filter: 'PS3'
+    num_spaces: 0
+  filter67:
+    filter: 'BRAND AND PLASTIC WRAPPED'
+    num_spaces: 3
+  filter68:
+    filter: 'FOR THE X BOX 360'
+    num_spaces: 4
+  filter69:
+    filter: 'PAL UK'
+    num_spaces: 1
+  filter70:
+    filter: 'PAL'
+    num_spaces: 0
+  filter71:
+    filter: 'MINT CONDITION'
+    num_spaces: 1
+  filter72:
+    filter: 'PLAYSTATION 3'
+    num_spaces: 1
+  filter73:
+    filter: 'GAME NEW'
+    num_spaces: 1
+  filter74:
+    filter: 'AWESOME DEAL'
+    num_spaces: 1
+  filter75:
+    filter: 'XBOX 360 GAME'
+    num_spaces: 2
+  filter76:
+    filter: 'SONY PLAYSTATION 3'
+    num_spaces: 2
+  filter77:
+    filter: 'FOR PS3'
+    num_spaces: 1
+  filter78:
+    filter: 'FOR XBOX 360'
+    num_spaces: 2
+  filter79:
+    filter: 'NEAR MINT'
+    num_spaces: 1
+  filter80:
+    filter: 'WITH INSTRUCTION BOOKLET'
+    num_spaces: 2
+  filter81:
+    filter: 'INSTRUCTION BOOKLET'
+    num_spaces: 1
+  filter82:
+    filter: 'GREAT CONDITION'
+    num_spaces: 1
+  filter83:
+    filter: 'SHOOTER WAR GAME'
+    num_spaces: 2
+  filter84:
+    filter: 'GENUINE DISC'
+    num_spaces: 1
+  filter85:
+    filter: 'GAME MINT'
+    num_spaces: 1
+  filter86:
+    filter: 'FOOTBALL GAME'
+    num_spaces: 1
+  filter87:
+    filter: 'NEW ACTION GAME'
+    num_spaces: 2
+  filter88:
+    filter: 'AND IN PERFECT WORKING ORDER'
+    num_spaces: 4
+  filter89:
+    filter: 'RATED 18'
+    num_spaces: 1
+  filter90:
+    filter: '225381'
+    num_spaces: 0
+  filter91:
+    filter: 'MW3 COD UK GAME'
+    num_spaces: 3
+  filter92:
+    filter: 'RACING DRIVING'
+    num_spaces: 1
+  filter93:
+    filter: 'GAME PERFECT'
+    num_spaces: 1
+  filter94:
+    filter: 'GAME LOOSE'
+    num_spaces: 1
+  filter95:
+    filter: 'NTSCJ JAP'
+    num_spaces: 1
+  filter96:
+    filter: 'NTSC'
+    num_spaces: 0
+  filter97:
+    filter: 'JAP'
+    num_spaces: 0
+  filter98:
+    filter: 'GAME ONLY'
+    num_spaces: 1
+  filter99:
+    filter: 'LIVE WITH BOX INTSTRUCTION BOOKLET'
+    num_spaces: 4
+  filter100:
+    filter: 'NO INSTRUCTIONS'
+    num_spaces: 1
+  filter101:
+    filter: 'PRE OWNED'
+    num_spaces: 1
+  filter102:
+    filter: 'BNIB'
+    num_spaces: 0
+  filter103:
+    filter: 'FOR SAME DAY DESPATCH'
+    num_spaces: 3
+  filter104:
+    filter: 'SAME DAY DESPATCH'
+    num_spaces: 2
+  filter105:
+    filter: 'VOTED BEST DRIVING GAME FOR THE SUMMER BY TOP GEAR'
+    num_spaces: 9
+  filter106:
+    filter: 'NEW'
+    num_spaces: 0
+  filter107:
+    filter: 'XBOX 360'
+    num_spaces: 1
+  filter108:
+    filter: 'MICROSOFT'
+    num_spaces: 0
+  filter109:
+    filter: 'EXCELLENT CONDITION'
+    num_spaces: 1
+  filter110:
+    filter: 'EDITION AND SEALED'
+    num_spaces: 2
+  filter111:
+    filter: '99P START'
+    num_spaces: 1
+  filter112:
+    filter: 'TOP FAST'
+    num_spaces: 1
+  filter113:
+    filter: 'POSTAGE'
+    num_spaces: 0
+  filter114:
+    filter: 'DISC TESTED'
+    num_spaces: 1
+  filter115:
+    filter: 'PAYMENTFASTER'
+    num_spaces: 0
+  filter116:
+    filter: 'MINT'
+    num_spaces: 0
+  filter117:
+    filter: 'PS 3'
+    num_spaces: 1
+  filter118:
+    filter: 'REFE0316'
+    num_spaces: 0
+  filter119:
+    filter: 'XBOX360'
+    num_spaces: 0
+  filter120:
+    filter: 'GAME MANUAL'
+    num_spaces: 1
+  filter121:
+    filter: 'PERFECT CONDITION'
+    num_spaces: 1
+  filter122:
+    filter: 'NO MARKS ON DISK'
+    num_spaces: 3
+  filter123:
+    filter: 'NO MARKS ON DISC'
+    num_spaces: 3
+  filter124:
+    filter: '18 RATED'
+    num_spaces: 1
+  filter125:
+    filter: 'FOR SONY'
+    num_spaces: 1
+  filter126:
+    filter: 'SONY'
+    num_spaces: 0
+  filter127:
+    filter: 'ON IN NEAR'
+    num_spaces: 2
+  filter128:
+    filter: 'BRAND NEW'
+    num_spaces: 1
+  filter129:
+    filter: 'BARGAIN FREE'
+    num_spaces: 1
+  filter130:
+    filter: 'FACTORY SEALED'
+    num_spaces: 1
+  filter131:
+    filter: 'WITH UNUSED CODE'
+    num_spaces: 2
+  filter132:
+    filter: 'EXCELLENT CONDITON'
+    num_spaces: 1
+  filter133:
+    filter: 'GOOD CONDITION'
+    num_spaces: 1
+  filter134:
+    filter: 'FREE P P'
+    num_spaces: 2
+  filter135:
+    filter: 'XBOX'
+    num_spaces: 0
+  filter136:
+    filter: 'PLAYSTATION PLAY STATION PS'
+    num_spaces: 3

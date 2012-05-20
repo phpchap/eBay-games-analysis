@@ -7,11 +7,12 @@
  * 
  * @property string $guid
  * @property string $title
+ * @property string $clean_title
  * @property string $block_title
  * @property string $link
  * @property text $description
  * @property int $current_price
- * @property timestamp $end_time
+ * @property int $end_time
  * @property int $bid_count
  * @property int $postage_packing_fee
  * @property varchar $profile_name
@@ -21,36 +22,38 @@
  * @property varchar $platform
  * @property enum $status
  * 
- * @method string    getGuid()                Returns the current record's "guid" value
- * @method string    getTitle()               Returns the current record's "title" value
- * @method string    getBlockTitle()          Returns the current record's "block_title" value
- * @method string    getLink()                Returns the current record's "link" value
- * @method text      getDescription()         Returns the current record's "description" value
- * @method int       getCurrentPrice()        Returns the current record's "current_price" value
- * @method timestamp getEndTime()             Returns the current record's "end_time" value
- * @method int       getBidCount()            Returns the current record's "bid_count" value
- * @method int       getPostagePackingFee()   Returns the current record's "postage_packing_fee" value
- * @method varchar   getProfileName()         Returns the current record's "profile_name" value
- * @method varchar   getProfileUrl()          Returns the current record's "profile_url" value
- * @method int       getFeedbackScore()       Returns the current record's "feedback_score" value
- * @method tinyint   getTitleProcessed()      Returns the current record's "title_processed" value
- * @method varchar   getPlatform()            Returns the current record's "platform" value
- * @method enum      getStatus()              Returns the current record's "status" value
- * @method EbayGame  setGuid()                Sets the current record's "guid" value
- * @method EbayGame  setTitle()               Sets the current record's "title" value
- * @method EbayGame  setBlockTitle()          Sets the current record's "block_title" value
- * @method EbayGame  setLink()                Sets the current record's "link" value
- * @method EbayGame  setDescription()         Sets the current record's "description" value
- * @method EbayGame  setCurrentPrice()        Sets the current record's "current_price" value
- * @method EbayGame  setEndTime()             Sets the current record's "end_time" value
- * @method EbayGame  setBidCount()            Sets the current record's "bid_count" value
- * @method EbayGame  setPostagePackingFee()   Sets the current record's "postage_packing_fee" value
- * @method EbayGame  setProfileName()         Sets the current record's "profile_name" value
- * @method EbayGame  setProfileUrl()          Sets the current record's "profile_url" value
- * @method EbayGame  setFeedbackScore()       Sets the current record's "feedback_score" value
- * @method EbayGame  setTitleProcessed()      Sets the current record's "title_processed" value
- * @method EbayGame  setPlatform()            Sets the current record's "platform" value
- * @method EbayGame  setStatus()              Sets the current record's "status" value
+ * @method string   getGuid()                Returns the current record's "guid" value
+ * @method string   getTitle()               Returns the current record's "title" value
+ * @method string   getCleanTitle()          Returns the current record's "clean_title" value
+ * @method string   getBlockTitle()          Returns the current record's "block_title" value
+ * @method string   getLink()                Returns the current record's "link" value
+ * @method text     getDescription()         Returns the current record's "description" value
+ * @method int      getCurrentPrice()        Returns the current record's "current_price" value
+ * @method int      getEndTime()             Returns the current record's "end_time" value
+ * @method int      getBidCount()            Returns the current record's "bid_count" value
+ * @method int      getPostagePackingFee()   Returns the current record's "postage_packing_fee" value
+ * @method varchar  getProfileName()         Returns the current record's "profile_name" value
+ * @method varchar  getProfileUrl()          Returns the current record's "profile_url" value
+ * @method int      getFeedbackScore()       Returns the current record's "feedback_score" value
+ * @method tinyint  getTitleProcessed()      Returns the current record's "title_processed" value
+ * @method varchar  getPlatform()            Returns the current record's "platform" value
+ * @method enum     getStatus()              Returns the current record's "status" value
+ * @method EbayGame setGuid()                Sets the current record's "guid" value
+ * @method EbayGame setTitle()               Sets the current record's "title" value
+ * @method EbayGame setCleanTitle()          Sets the current record's "clean_title" value
+ * @method EbayGame setBlockTitle()          Sets the current record's "block_title" value
+ * @method EbayGame setLink()                Sets the current record's "link" value
+ * @method EbayGame setDescription()         Sets the current record's "description" value
+ * @method EbayGame setCurrentPrice()        Sets the current record's "current_price" value
+ * @method EbayGame setEndTime()             Sets the current record's "end_time" value
+ * @method EbayGame setBidCount()            Sets the current record's "bid_count" value
+ * @method EbayGame setPostagePackingFee()   Sets the current record's "postage_packing_fee" value
+ * @method EbayGame setProfileName()         Sets the current record's "profile_name" value
+ * @method EbayGame setProfileUrl()          Sets the current record's "profile_url" value
+ * @method EbayGame setFeedbackScore()       Sets the current record's "feedback_score" value
+ * @method EbayGame setTitleProcessed()      Sets the current record's "title_processed" value
+ * @method EbayGame setPlatform()            Sets the current record's "platform" value
+ * @method EbayGame setStatus()              Sets the current record's "status" value
  * 
  * @package    ebay-games
  * @subpackage model
@@ -64,9 +67,14 @@ abstract class BaseEbayGame extends sfDoctrineRecord
         $this->setTableName('ebay_games');
         $this->hasColumn('guid', 'string', 255, array(
              'type' => 'string',
+             'unique' => true,
              'length' => 255,
              ));
         $this->hasColumn('title', 'string', 255, array(
+             'type' => 'string',
+             'length' => 255,
+             ));
+        $this->hasColumn('clean_title', 'string', 255, array(
              'type' => 'string',
              'length' => 255,
              ));
@@ -84,8 +92,9 @@ abstract class BaseEbayGame extends sfDoctrineRecord
              'type' => 'int',
              'length' => 11,
              ));
-        $this->hasColumn('end_time', 'timestamp', null, array(
-             'type' => 'timestamp',
+        $this->hasColumn('end_time', 'int', 11, array(
+             'type' => 'int',
+             'length' => 11,
              ));
         $this->hasColumn('bid_count', 'int', 11, array(
              'type' => 'int',
